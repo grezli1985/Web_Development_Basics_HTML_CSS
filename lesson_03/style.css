@@ -1,0 +1,12 @@
+.heading {
+    color: blue;
+    border: 1px solid black;
+}
+
+.title{
+    background-color: grey;
+}
+
+.heading-about {
+    color: orange;
+}
