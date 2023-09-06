@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__logo {
+    margin-top: 40px;
+    margin-bottom: 84px;
+    margin-left: 375px;
+    
+}
+
+.header__menu {
+    margin-left: 500px;
+    margin-top: -37px;
+    
+    
+}
+
+.top__content {
+    margin-right: 40.94px;
+}
+
+.top__info {
+    margin-left: 375px;
+    margin-top: 84px;
+}
+
+.top__button {
+    padding-top: 37px;
+    
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.sub__button {
+    margin-left: 212px;
+    margin-top: -33px;
+}
+
+.top__photo {
+    margin-left: 935.94px;
+    margin-top: -82.71px;
+    margin-right: 439.25px;
+}
+
+.logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 345px;
+}
