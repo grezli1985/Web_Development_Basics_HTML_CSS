@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+	display: block;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+
+.center {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1140px;
+  }
+
+
+
+.header {
+    height: 75px;
+    background-color: #222;
+}
+
+.header__logo {    
+    overflow: hidden;
+    height: 75px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+
+
+
+
+.d7 {
+    padding-top: 28px;
+    padding-bottom: 20px;
+
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 42px;
+  }
+
+input {
+    color: #fff;
+    height: 42px;
+    width: 0;
+    padding: 0 42px 0 42px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+input:focus {
+    width: 300px;
+    z-index: 1;
+    border-bottom: 2px solid #f9f0da;
+}
+
+button {
+    background: #222;
+    border: none;
+    height: 26px;
+    width: 26px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+.header__menu {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+
+
+
+/* ----section------ */
+
+
+.section {
+    max-height: 768px;
+    min-height: 364px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F7E4E2;
+
+}
+
+.poster {
+    align-items: center;
+    display: flex;
+}
+
+.stick {
+    align-items: center;
+    display: flex;
+}
+
+.brend {
+    border-left: 16px solid #F16D7F;
+    margin-left: 64px;
+    padding-left: 16px;
+
+    
+}
+
+.title {
+    color: #222;
+    font-family: Lato;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    
+}
+
+.subtitle {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pinky {
+    color: #F16D7F;
+}
+
+/* ----blocks---- */
+
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 260px 180px;
+    gap: 32px;
+    overflow: hidden;
+    margin-top: 64px;
+    margin-bottom: 96px;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+}
+
+.filter { 
+    background-color: rgba(33, 22, 22, 0.70);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+}
+
+.name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.item__big {
+    grid-column: span 3;
+}
+
+
+
+/* -----content------- */
+
+
+.content {
+    margin-bottom: 48px;
+}
+
+.caption {
+    color: #222;
+    font-size: 30px;
+    text-align: center;
+}
+
+.subcaption {
+    color: #9F9F9F;
+    font-size: 14px;
+    text-align: center;
+}
+
+.goods {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.contents {
+    background-color: #F8F8F8;
+    padding: 24px;
+}
+
+.names {
+    color: #000;
+    font-size: 13px;
+}
+
+.description {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 16px 0;
+}
+
+.price {
+    font-size: 16px;
+}   
+
+.more {
+    cursor: pointer;
+    width: 212px;
+    height: 48px;
+    border: 1px solid #f16d7f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    .header {
+        height: 74px;
+    }
+
+    .icon {
+        gap: 41px;
+    }
+
+    .d7 {
+        padding-bottom: 19px;
+    }
+
+    .header__menu {    
+        
+        gap: 25px;
+    }
+
+    .cart {
+        gap: 42px;
+    }
+
+
+
+
+    .brend {
+        margin-left: 32px;
+    }
+    
+    .title {
+        font-size: 44px;
+    }
+    
+    .subtitle {
+        font-size: 24px;
+    }
+
+
+
+    .blocks {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 168px 116px;
+        gap: 16px;
+        margin: 32px 16px 48px;
+    }
+
+    .content {
+        margin-bottom: 24px;
+    }
+
+    .goods {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin: 24px 16px 24px;
+    }
+
+
+
+}
+    
+
