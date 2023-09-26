@@ -1,0 +1,78 @@
+@media (max-width: 767px) and (min-width: 375px) {
+
+    .menu {
+      padding: 0 16px;
+    }
+  
+    .account{
+        display: none;
+    }
+    
+    .cart {
+          display: none;
+    }
+  
+    form {
+        width: 100px;
+    }
+
+    .icon {
+        gap: 41px;
+    }
+
+
+
+
+
+    .section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .poster {
+        display: none;
+    }
+    
+    .stick {
+        justify-content: center;
+    }
+    
+    .brend {
+        margin-left: 0;
+    }
+    
+    .title {
+        font-size: 38px;
+    }
+    
+    .subtitle {
+        font-size: 20px;
+    }
+  
+
+
+
+
+
+    .blocks {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        gap: 32px;
+        margin: 64px 16px 64px;
+    }
+    
+    .item__big {
+        grid-column: span 1;
+        height: 112px;
+    }
+
+    .content {
+        margin-bottom: 24px;
+    }
+    
+    .goods {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin: 24px 8px 24px;
+    }
+
+}
